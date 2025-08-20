@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+Zidio Development Full Stack Development
 
-## Project info
+# Excel-Zidio
 
-**URL**: https://lovable.dev/projects/8b3f5524-0eb7-4174-96cc-7c11a41d3da8
+A lightweight React web application built with modern development tools for speed, scalability, and simplicity.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📖 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Available Scripts](#-available-scripts)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8b3f5524-0eb7-4174-96cc-7c11a41d3da8) and start prompting.
+## 🚀 Features
+- ⚡ Fast development with Vite
+- ⚛️ Built using React + TypeScript
+- 🎨 Styled with Tailwind CSS
+- 🧩 Ready-to-use UI components (shadcn-ui)
+- 📦 Lightweight and easy to extend
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn-ui
+- **Package Manager:** npm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏁 Getting Started
 
-Follow these steps:
+Follow these instructions to set up the project locally:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# 1. Clone the repository
+git clone https://github.com/Roshan-ui194/Excel-Zidio.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Navigate into the project folder
+cd Excel-Zidio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Run the development server
 npm run dev
+````
+
+The app will be running at:
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📂 Project Structure
+
+```
+Excel-Zidio/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level components
+│   ├── styles/          # Global styles
+│   ├── App.tsx          # Root component
+│   └── main.tsx         # Application entry point
+├── index.html           # Base HTML file
+├── package.json         # Dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+├── vite.config.ts       # Vite configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📜 Available Scripts
 
-**Use GitHub Codespaces**
+* `npm run dev` → Start development server
+* `npm run build` → Build the app for production
+* `npm run preview` → Preview the production build
+* 
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤝 Contributing
 
-## What technologies are used for this project?
+Contributions are welcome!
 
-This project is built with:
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m "Add new feature"`)
+4. Push to your branch (`git push origin feature-branch`)
+5. Open a Pull Request
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
+## 🔗 Repository
 
-## How can I deploy this project?
+GitHub Repo: [Excel-Zidio](https://github.com/Roshan-ui194/Excel-Zidio)
 
-Simply open [Lovable](https://lovable.dev/projects/8b3f5524-0eb7-4174-96cc-7c11a41d3da8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```
