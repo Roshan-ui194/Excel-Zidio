@@ -14,8 +14,7 @@ A lightweight React web application built with modern development tools for spee
 - [Available Scripts](#-available-scripts)
 - [Deployment](#-deployment)
 - [Contributing](#-contributing)
-- [License](#-license)
-
+- 
 ---
 
 ## 🚀 Features
